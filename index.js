@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 //Router
 const route = require('./routerPage');
-app.use('/tech', route);
+app.use('/technogies', route);
 
 //Server Connectivity
 app.listen(8080, (err)=>{
