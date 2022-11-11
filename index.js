@@ -8,7 +8,7 @@ const app = express();
 //Body-parser
 app.use(express.json());
 //Router
-const route = require('./routerPage');
+const route = require('./router/routerPage');
 app.use('/technogies', route);
 
 //Server Connectivity
